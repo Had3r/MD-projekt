@@ -11,6 +11,7 @@
   <title>MD Projekt 2</title>
 </head>
 <body>
+
   <header>
     <nav>
       <div class="row">
@@ -29,6 +30,7 @@
       <a href="#" class="btn btn-ghost">Zobacz więcej</a>
     </div>
   </header>
+
   <section class="section-features">
     <div class="row">
       <h2>Kim jesteśmy?</h2>
@@ -38,8 +40,14 @@
       </p>
     </div>
       <div class="row">
-        <div class="col span-1-of-3">
-          <svg class="icon">
+        <div class="col span-1-of-3 box">
+          <svg class="icon-big">
+          <defs>
+            <linearGradient id="myGradient">
+              <stop offset="0%" stop-color="rgba(40,180,133,0.7)" />
+              <stop offset="100%" stop-color="rgba(126,213,111,0.7)" />
+            </linearGradient>
+          </defs>
             <use xlink:href="resources/img/sprite.svg#icon-leaf"></use>
           </svg>
           <h3>Projekty zieleni</h3>
@@ -48,8 +56,8 @@
             uzgodnienia o wycinkę, sporządzanie wniosków.
           </p>
         </div>
-       <div class="col span-1-of-3">
-          <svg class="icon">
+       <div class="col span-1-of-3 box">
+          <svg class="icon-big">
             <use xlink:href="resources/img/sprite.svg#icon-books"></use>
           </svg>
         <h3>Kompleksowa realizacja projektów</h3>
@@ -58,8 +66,8 @@
           gospodarka wodami opadowymi (ogrody deszczowe).
         </p>
       </div>
-      <div class="col span-1-of-3">
-          <svg class="icon">
+      <div class="col span-1-of-3 box">
+          <svg class="icon-big">
             <use xlink:href="resources/img/sprite.svg#icon-user-tie"></use>
           </svg>
         <h3>Świadczymy usługi</h3>
@@ -69,5 +77,53 @@
      </div>
     </div>
   </section>
+
+  <section class="section-images">
+    <ul class="image-showcase">
+      <li>
+        <figure class="nature-photo">
+          <img src="resources/img/wood-bench.jpg" alt="wood bench">
+        </figure>
+      </li>
+      <li>
+        <figure class="nature-photo">
+          <img src="resources/img/spring-bird.jpg" alt="spring bird">
+        </figure>
+      </li>
+      <li>
+        <figure class="nature-photo">
+          <img src="resources/img/pathway.jpg" alt="pathway">
+        </figure>
+      </li>
+      <li>
+        <figure class="nature-photo">
+          <img src="resources/img/garden.jpg" alt="garden">
+        </figure>
+      </li>
+    </ul>
+    <ul class="image-showcase">
+      <li>
+        <figure class="nature-photo">
+          <img src="resources/img/butterfly.jpg" alt="butterfly">
+        </figure>
+      </li>
+      <li>
+        <figure class="nature-photo">
+          <img src="resources/img/spring.jpg" alt="spring">
+        </figure>
+      </li>
+      <li>
+        <figure class="nature-photo">
+          <img src="resources/img/wood-cut.jpg" alt="wood cut">
+        </figure>
+      </li>
+      <li>
+        <figure class="nature-photo">
+          <img src="resources/img/planting.jpg" alt="planting">
+        </figure>
+      </li>
+    </ul>
+  </section>
+
 </body>
 </html>
