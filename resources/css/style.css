@@ -338,3 +338,57 @@ blockquote::before {
   top: -5px;
   left: -5px;
 }
+
+/*********** CONTACT SECTION ***********/
+
+#map {
+  height: 500px;
+  font-size: 100%;
+}
+
+.section-map {
+  padding: 0;
+  position: relative; 
+
+}
+
+.map-content {
+  height: 500px;
+  background-color: rgba(240, 240, 240, 0.9);
+  position: absolute;
+  z-index: 50;
+  right: 0;
+  width: 50%;
+}
+
+.contact-header ~ div {
+  margin: 0 45px;
+}
+
+.contact-header {
+  margin-top: 30px;
+}
+
+/*********** FOOTER ***********/
+
+footer {
+  background-color: #333;
+  padding: 40px;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  font-size: 85%;
+}
+
+footer p a:link,
+footer p a:visited {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dotted #888;
+}
+
+footer p a:hover {
+  color: #ddd;
+}
