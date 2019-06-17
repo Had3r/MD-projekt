@@ -6,6 +6,8 @@
   }
 
   .row { padding: 0 2%; }
+
+  .contact-header ~ div { margin: 0; }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -20,6 +22,9 @@
   .steps-box { margin-top: 10px; }
   .works-step { margin-bottom: 40px;}
   .worker { width: 50%; }
+
+  #map { font-size: 90%; }
+  .contact-header ~ .row { padding: 0; }
 }
 
 @media only screen and (max-width: 767px) {
@@ -52,8 +57,21 @@
   }
 
   .steps-box { margin-top: 20px; }
+
+  .section-features {
+    text-align: center;
+  }
+
+  .section-features .col svg {
+    margin: 7px auto;
+  }
+
+  .map-content a {
+    border-bottom: 1px dotted #888; 
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-
+  .contact-header ~ .row { margin-bottom: 13px; }
 }
