@@ -1,10 +1,10 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiaGFkM3IiLCJhIjoiY2psM255cTNnMDl4YTNwcng3eXc5MjBjbiJ9.yW4udE8WipCYR-d5MxZBJg';
 
 const map = new mapboxgl.Map({
-  container: 'map', // container id
-  style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-  center: [17.282985, 51.132733], // starting position [lng, lat]
-  zoom: 10 // starting zoom
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11', 
+  center: [17.282985, 51.132733], 
+  zoom: 10 
 });
 
 map.on('load', function() {
@@ -27,11 +27,11 @@ map.on('load', function() {
             }]
           }
         },
-  "layout": {
-    "icon-image": "cat",
-    "icon-size": .6
-  }
+        "layout": {
+          "icon-image": "cat",
+          "icon-size": .6
+        }
+    });
   });
-  });
-  });
+});
 

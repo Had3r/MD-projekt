@@ -19,13 +19,14 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   background-color: var(--color-secondary-light);
   color: var(--color-primary);
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix {zoom: 1;}
@@ -349,7 +350,6 @@ blockquote::before {
 .section-map {
   padding: 0;
   position: relative; 
-
 }
 
 .map-content {
@@ -367,6 +367,11 @@ blockquote::before {
 
 .contact-header {
   margin-top: 30px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*********** FOOTER ***********/
