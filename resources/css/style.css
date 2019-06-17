@@ -191,6 +191,15 @@ header {
   margin-top: 20px;
 }
 
+.logo-color { 
+  display:  none;
+  height: 65px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+}
+
+/* Main nav */
 .main-nav {
   float: right;
   list-style: none;
@@ -217,6 +226,32 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid var(--color-secondary-dark);
 }
+
+/* Sticky nav */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.932);
+  box-shadow: 0 2px 2px rgb(224, 224, 224);
+  z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 25px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 25px 0;
+  color: #555;
+}
+
+.sticky .main-nav li a:hover {
+  border-bottom: 2px solid green;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-color { display: block; }
 
 /*********** FEATURES ***********/
 

@@ -1,3 +1,52 @@
+$(document).ready(function() {
+
+  // Sticky naw
+  $('.js--section-features').waypoint(function(direction) {
+    if (direction == 'down') {
+      $('nav').addClass('sticky');
+    } else {
+      $('nav').removeClass('sticky');
+    }
+  }, {
+    offset: '60px'
+  });
+
+  // Scroll on buttons
+  $('.js--scroll-to-map').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-map').offset().top}, 1000);
+  });
+
+  $('.js--scroll-to-start').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+  });
+
+  // Nav scroll
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+ 
+});
+
+
+
+
+
+
+
+
+
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiaGFkM3IiLCJhIjoiY2psM255cTNnMDl4YTNwcng3eXc5MjBjbiJ9.yW4udE8WipCYR-d5MxZBJg';
 
 let map = new mapboxgl.Map({
@@ -58,5 +107,7 @@ if (mq.matches){
     zoom: 10 
   });
 };
+
+
 
 
