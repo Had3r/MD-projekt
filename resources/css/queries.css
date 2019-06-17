@@ -36,7 +36,9 @@
 
   .col { width: 100%; }
 
-  .main-nav { display:  none; }
+  /*.main-nav { display:  none; }*/
+  .mobile-nav-icon { display: inline-block; }
+
 
   h1 { font-size: 180%; }
   h2 { font-size: 150%; }

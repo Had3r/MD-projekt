@@ -227,6 +227,20 @@ header {
   border-bottom: 2px solid var(--color-secondary-dark);
 }
 
+/* Mobile nav */
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+ion-icon {
+  font-size: 200%;
+  color: #fff;
+}
+
 /* Sticky nav */
 .sticky {
   position: fixed;
