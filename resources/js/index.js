@@ -133,7 +133,3 @@ if (mq.matches){
     zoom: 10 
   });
 };
-
-
-
-
