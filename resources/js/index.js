@@ -54,18 +54,24 @@ $(document).ready(function() {
   }, {
     offset: '50%',
   });
+
+  // Mobile nav
+  $('.js--nav-icon').click(() => {
+        
+    const  nav = $('.js--main-nav'); 
+    const icon = $('.ion-icon'); 
+
+    nav.slideToggle(300); 
+
+    if(icon.attr('name') === 'menu' ){ 
+       icon.removeAttr('name');
+       icon.attr('name','close');
+    } else {
+        icon.removeAttr('name','close');
+        icon.attr('name','menu');
+    }
+  });
 });
-
-
-
-
-
-
-
-
-
-
-
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiaGFkM3IiLCJhIjoiY2psM255cTNnMDl4YTNwcng3eXc5MjBjbiJ9.yW4udE8WipCYR-d5MxZBJg';
 
@@ -100,7 +106,7 @@ map.on('load', function() {
         },
         "layout": {
           "icon-image": "cat",
-          "icon-size": .6
+          "icon-size": .4
         }
     });
   });
