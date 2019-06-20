@@ -129,6 +129,10 @@ h2::after {
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
+.btn-full {
+  margin-bottom: 7px;
+}
+
 .btn-full:link,
 .btn-full:visited {
   background-color: #fff;
@@ -193,7 +197,7 @@ header {
 }
 
 .logo {
-  height: 100px;
+  height: 120px;
   width: auto;
   float: left;
   margin-top: 20px;
@@ -372,6 +376,39 @@ ion-icon {
   margin-bottom: 15px;
 }
 
+.projects-icon {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  font-size: 120%;
+  color: rgba(40,180,133,0.7);
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 10px;
+} 
+
+.project-feature {
+  margin-top: 10px;
+}
+
+/*********** LINKS ***********/
+
+ion-icon + a:link,
+ion-icon + a:visited {
+  color: rgba(40,180,133,0.7);
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(40,180,133,0.7);
+}
+
+ion-icon + a:hover,
+ion-icon + a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+
 /*********** TESTIMONIALS ***********/
 
 .section-testimonials {
@@ -403,6 +440,13 @@ blockquote::before {
   position: absolute;
   top: -5px;
   left: -5px;
+}
+
+cite img {
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 /*********** CONTACT SECTION ***********/

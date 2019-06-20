@@ -57,6 +57,10 @@
     font-size: 100%;
   }
 
+  .sticky .main-nav li a:hover {
+    border-bottom: 0;
+  }
+
   .sticky .main-nav { margin-top: 10px; }
 
   .sticky .main-nav li a:link,
@@ -107,4 +111,28 @@
 
 @media only screen and (max-width: 480px) {
   .contact-header ~ .row { margin-bottom: 13px; }
+}
+
+@media only screen and (max-width: 430px) {
+  .row, .plant-text-box {
+    padding: 0 2%;
+  }
+  .logo {
+    height: 80px;
+  }
+  .main-nav {
+    margin-left: 0;
+  }
+
+  .plant-text-box { top: 60% }
+  
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited { padding: 2px 0; }
+}
+
+@media only screen and (max-width: 342px) {
+  .row, .plant-text-box { padding: 0;}
+  .main-nav li a:link, .main-nav li a:visited {
+    font-size: 85%;
+  }
 }
