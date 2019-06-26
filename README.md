@@ -1,4 +1,13 @@
-## Basic principles of website designing that I use in my projects (source: Jonas Schmedtmann):
+<div align="center">
+
+# MD Projekt 
+
+Responsive website development with HTML5, CSS3 and some jQuery. In this project I focused on the web design
+(below web design guidelines and tips - source: Jonas Schmedtmann course) 
+
+</div>
+
+## Basic principles of website designing that I use in my projects:
 
 ### Typography
 
