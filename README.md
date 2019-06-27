@@ -46,5 +46,29 @@ So using complete black just doesn't feel natural.
 * ![#FFC0CB](https://placehold.it/15/FFC0CB/000000?text=+) Pink expresses romance, passivity, care, peace, affection, et cetera.
 * ![#A52A2A](https://placehold.it/15/A52A2A/000000?text=+) Brown is the color of relaxation and confidence. Brown itself means earthiness, nature, durability, comfort and reliability.
 
+### Working with images
+
+##### Effective placement of text on the image
+1. Put text directly on an image. Overlay the image with a color, if there is a small contrast. Use color gradients to achieve stunning effects: https://uigradients.com/
+2. Put your text in a box. Box should be opaque.
+3. Blur the image.
+4. The floor fade method. It is a technique where an image subtly fades towards black at the bottom, with white text written over it. <br />
+All free images in one place: http://thestocks.im/ <br />
+Images from many sources: https://www.pexels.com/ <br />
+Food images: https://www.foodiesfeed.com/ <br />
+A curated collecton of free resources: http://www.imcreator.com/free
+Free videos: http://mazwai.com/ <br />
+Techniques for working with images in CSS: https://css-tricks.com/design-considerations-text-images/ <br />
+
+### Working with icons
+
+1. Use icons to show features of your web site or steps that a user should follow to achieve some goal.
+2. Or instead of showing features, you can use icons for actions and links.
+3. Icons should not take a center stage in your design. Instead, they should play a supporting role.
+4. Use icon fonts whenever possible. Icon fonts use smooth, vector images instead of common roster images to display icons on your web site. Vectors scale endlessly up or down for any resolution. <br />
+Icon fonts: https://icomoon.io/  <br />
+Or: https://ionicons.com/ https://iconmonstr.com https://fontawesome.com/ <br />
+Another icon set: http://entypo.com/ <br />
+
 
 
