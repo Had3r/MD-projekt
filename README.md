@@ -3,7 +3,7 @@
 # MD Projekt 
 
 Responsive website development with HTML5, CSS3 and some jQuery. In this project I focused on the web design
-(below web design guidelines and tips - source: Jonas Schmedtmann course) 
+(below web design guidelines and tips - source: Jonas Schmedtmann course). Preview: http://www.md-projekt.org.pl/
 
 </div>
 
