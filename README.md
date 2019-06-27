@@ -86,8 +86,8 @@ Hierarchies give your web site order. ***And how do you do it?***
 
 1. Designing the user interface means to design the presentation of a product, like a web site or a mobile application. It's designing the look and feel of the product.
 2. Another type of design - user experience design. User experience includes the user interface, but also has to understand the whole picture of the product. ***It's not just what it looks like and feels like. Design is how it works.*** <br />
-UX crash course in 31 days: https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals <br />
-UI tricks that can lead to higher conversion rates: https://goodui.org/patterns/91/ <br />
+* UX crash course in 31 days: https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals <br />
+* UI tricks that can lead to higher conversion rates: https://goodui.org/patterns/91/ <br />
 
 ### Getting inspired
 
