@@ -99,4 +99,4 @@ Hierarchies give your web site order. ***And how do you do it?***
 * Google fonts inspiraton: http://femmebot.github.io/google-type/
 
 
-## This is is my cheatsheet inspired by Jonas Schmedmann: some web design guidelines in one place.
+## This is my cheatsheet inspired by Jonas Schmedtmann: some web design guidelines in one place.
