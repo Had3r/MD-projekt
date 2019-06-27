@@ -53,12 +53,12 @@ So using complete black just doesn't feel natural.
 2. Put your text in a box. Box should be opaque.
 3. Blur the image.
 4. The floor fade method. It is a technique where an image subtly fades towards black at the bottom, with white text written over it. <br />
-All free images in one place: http://thestocks.im/ <br />
-Images from many sources: https://www.pexels.com/ <br />
-Food images: https://www.foodiesfeed.com/ <br />
-A curated collecton of free resources: http://www.imcreator.com/free
-Free videos: http://mazwai.com/ <br />
-Techniques for working with images in CSS: https://css-tricks.com/design-considerations-text-images/ <br />
+* All free images in one place: http://thestocks.im/ <br />
+* Images from many sources: https://www.pexels.com/ <br />
+* Food images: https://www.foodiesfeed.com/ <br />
+* A curated collecton of free resources: http://www.imcreator.com/free
+* Free videos: http://mazwai.com/ <br />
+* Techniques for working with images in CSS: https://css-tricks.com/design-considerations-text-images/ <br />
 
 ### Working with icons
 
@@ -66,9 +66,37 @@ Techniques for working with images in CSS: https://css-tricks.com/design-conside
 2. Or instead of showing features, you can use icons for actions and links.
 3. Icons should not take a center stage in your design. Instead, they should play a supporting role.
 4. Use icon fonts whenever possible. Icon fonts use smooth, vector images instead of common roster images to display icons on your web site. Vectors scale endlessly up or down for any resolution. <br />
-Icon fonts: https://icomoon.io/  <br />
-Or: https://ionicons.com/ https://iconmonstr.com https://fontawesome.com/ <br />
-Another icon set: http://entypo.com/ <br />
+* Icon fonts: https://icomoon.io/  <br />
+* Or: https://ionicons.com/ https://iconmonstr.com https://fontawesome.com/ <br />
+* Another icon set: http://entypo.com/ <br />
+
+### Spacing and layout
+
+1. Use whitespace
+* put whitespace between your elements
+* put whitespace between your groups of elements
+* put whitespace between your web site's sections.
+2. Define hierarchy. With the whitespace that you add, you describe invisible relationships between the elements of your web site. You communicate how the pieces of information relate to one another. <br />
+Hierarchies give your web site order. ***And how do you do it?***
+* first, define where you want your audience to look first
+* establish a flow that corresponds to your content's message (Because hierarchy is exactly that. It guides the user from one element to the next.)
+* and then, use whitespace to build that exact flow
+
+### User Experience 
+
+1. Designing the user interface means to design the presentation of a product, like a web site or a mobile application. It's designing the look and feel of the product.
+2. Another type of design - user experience design. User experience includes the user interface, but also has to understand the whole picture of the product. ***It's not just what it looks like and feels like. Design is how it works.*** <br />
+UX crash course in 31 days: https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals <br />
+UI tricks that can lead to higher conversion rates: https://goodui.org/patterns/91/ <br />
+
+### Getting inspired
+
+* Find beautful websites: https://www.siteinspire.com/ 
+* Dribble: https://dribbble.com/
+* Behance: https://www.behance.net/
+* Inspiraton for one­‐page websites: https://onepagelove.com/
+* Collecton of design elements: https://calltoidea.com/
+* Google fonts inspiraton: http://femmebot.github.io/google-type/
 
 
-
+## This is is my cheatsheet inspired by Jonas Schmedmann: some web design guidelines in one place.
