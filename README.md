@@ -69,6 +69,7 @@ So using complete black just doesn't feel natural.
 * Icon fonts: https://icomoon.io/  <br />
 * Or: https://ionicons.com/ https://iconmonstr.com https://fontawesome.com/ <br />
 * Another icon set: http://entypo.com/ <br />
+* Useful SVG icons: https://www.iconfinder.com/ <br />
 
 ### Spacing and layout
 
